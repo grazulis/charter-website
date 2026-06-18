@@ -61,12 +61,6 @@ No automated tests. Verify visually in a browser; check the hero, principles car
 <!-- Where the site is hosted and how it's deployed. -->
 Deployed via GitHub Pages from the `docs/` folder on the `main` branch of `github.com/grazulis/charter-website`. Any push to `main` that touches files under `docs/` triggers a redeploy.
 
-## Conventions
-
-<!-- Code style, commit message format, branch naming, etc. -->
-
-TODO: Capture conventions worth enforcing.
-
 ## Notes for Claude
 
 <!-- Project-specific guidance: things to always do, things to avoid. -->
