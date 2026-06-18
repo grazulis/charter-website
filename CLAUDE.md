@@ -14,12 +14,14 @@ Create a website for the Liverpool City Region Data and AI Charter. The website 
 
 <!-- High-level map of the directories that matter. -->
 
-- `index.html` — single-page magazine-style site
-- `styles.css` — CDC-brand styling (Quicksand stand-in for Mont, brand palette as CSS custom properties)
-- `script.js` — header scroll state + light hero/image-band parallax
-- `content/` — source content (`content.md`, `CDC-Brand Guidelines-2021 v1 (final).pdf`)
-- `imgs/` — site assets: CDC logos, Assembly photography
+- `docs/` — the deployed website (served by GitHub Pages)
+  - `docs/index.html` — single-page magazine-style site
+  - `docs/styles.css` — CDC-brand styling (Quicksand stand-in for Mont, brand palette as CSS custom properties)
+  - `docs/script.js` — header scroll state + light hero/image-band parallax
+  - `docs/imgs/` — site assets: CDC logos, Assembly photography, signatory marks, favicon
+- `content/` — source content not served from the site (`content.md`, `CDC-Brand Guidelines-2021 v1 (final).pdf`)
 - `CLAUDE.md` — this file
+- `PLAN.md` — current open work / implementation plan
 
 ## Tech Stack
 
@@ -37,12 +39,14 @@ No dependencies. Just clone the repo.
 
 ### Run locally
 
+Serve from the `docs/` directory (so paths match the deployed site):
+
 ```sh
-python3 -m http.server 8000
+python3 -m http.server 8000 --directory docs
 # then open http://127.0.0.1:8000/
 ```
 
-Any static server works (`npx serve`, `caddy file-server`, etc.).
+Any static server works (`npx serve docs`, `caddy file-server -root docs`, etc.).
 
 ### Build
 
@@ -55,7 +59,7 @@ No automated tests. Verify visually in a browser; check the hero, principles car
 ## Deployment
 
 <!-- Where the site is hosted and how it's deployed. -->
-The website will be deployed via GitHub Pages.
+Deployed via GitHub Pages from the `docs/` folder on the `main` branch of `github.com/grazulis/charter-website`. Any push to `main` that touches files under `docs/` triggers a redeploy.
 
 ## Conventions
 
