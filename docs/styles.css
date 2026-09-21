@@ -408,15 +408,17 @@ body.menu-open { overflow: hidden; }
               0 40px 70px -40px rgba(39,66,113,0.25);
 }
 
-/* Petal-shaped number badge */
+/* Number badge in the CDC petal shape (see .petal) */
 .principle-number {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 54px; height: 54px;
+  height: 50px;
+  aspect-ratio: 2.1 / 1;
+  align-self: flex-start;
   flex: none;
   margin-bottom: 1.1rem;
-  border-radius: 0 100% 0 100%;
+  border-radius: 0 47.6% 0 47.6% / 0 100% 0 100%;
   background: var(--blue-soft);
   color: var(--blue);
   font-weight: 700;
