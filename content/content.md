@@ -57,7 +57,7 @@ Residents want the LCR to lead the way in community-led data innovation. Data si
 **What that means…**
 Data and AI technologies are constantly evolving. It is expected that the Charter evolves with them as a living document. A review of the Charter and signing organisations’ use of data and AI is expected at least every two years. Organisations and projects will be kitemarked to the 11 principles. This review must be independent of signing organisations and inclusive of residents to ensure external oversight.
 ## In summary
-Our residents expressed a strong hope that human dignity and integrity would be the core value for data and AI projects. They want Liverpool to lead the way in community-focused innovation, leading to positive change driven by hope in realising benefits from improving health, care, education and other local services.
+Our residents expressed a strong hope that human dignity and integrity would be the core value for data and AI projects. They want Liverpool to lead the way in community-focussed innovation, leading to positive change driven by hope in realising benefits from improving health, care, education and other local services.
  
 # How to get involved
 The ~[NHS](https://dataintoaction.cheshireandmerseyside.nhs.uk/)~, the ~[University](https://www.liverpool.ac.uk/civic-health-innovation-labs/)~ and LCRCA’s ~[Office for Public Service Innovation](https://www.liverpoolcityregion-ca.gov.uk/the-office-for-public-service-innovation)~ are the original signatories of the charter, committing to use it in the approval and set-up of largescale data and AI projects. 
