@@ -511,6 +511,16 @@ body.menu-open { overflow: hidden; }
 .principle[data-color="teal"]   .principle-detail > summary { background: rgba(4,178,191,0.15); color: #036971; }
 .principle[data-color="teal"]   .principle-detail > summary:hover { background: rgba(4,178,191,0.28); }
 
+/* Closing summary card — sits in the grid but is not a principle */
+.principle-summary {
+  background: var(--blue);
+  border-top-color: var(--yellow);
+  list-style: none;
+}
+.principle-summary .principle-number { background: var(--yellow); }
+.principle-summary h3 { color: var(--yellow); }
+.principle-summary .principle-lead { color: var(--white); margin-bottom: 0; }
+
 /* ===== Story (image + text) ===== */
 .story {
   display: grid;
