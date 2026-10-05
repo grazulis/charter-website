@@ -2,7 +2,7 @@
 
 A modern, responsive, magazine-style website for the **Liverpool City Region Community Charter on Data and AI** — a charter of 11 principles, written by 59 Liverpool City Region residents, on how data and AI should work for their community.
 
-🌐 **Live site:** https://grazulis.github.io/charter-website/
+🌐 **Live site:** https://civic-health-innovation-labs.github.io/data-charter-website/
 
 ## About
 
